@@ -1,10 +1,10 @@
 {
-  "name": "react-avancado-boilerplate",
+  "name": "boilerplate",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
